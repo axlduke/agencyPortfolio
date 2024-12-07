@@ -20,7 +20,7 @@ function Nav() {
         }
     },[menuRef])
     return (
-        <div className={`absolute h-screen ${isMenuOpen ? 'bg-slate-900' : 'bg-transparent'}`} ref={menuRef}>
+        <div className={`fixed h-screen ${isMenuOpen ? 'bg-slate-900 text-white' : 'bg-transparent'}`} ref={menuRef}>
             <div className='mt-5 w-56 space-y-5 pl-6' >
                 <div className='flex justify-between bottom-9'>
                     <div className={`${isMenuOpen ? 'block' : 'hidden sm:block'}`}>
