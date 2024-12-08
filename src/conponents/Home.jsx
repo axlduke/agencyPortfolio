@@ -520,6 +520,101 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+            <div className='flex
+                xx:px-10 xx:flex-col xx:space-y-5 xx: 
+                xs:
+                sm:
+                md:
+                lg:
+                xl:
+                2xl:
+            '>
+                <div className='xx:space-y-3'>
+                    <div>
+                        <h1 className='xx:text-xl'>Watch Video to Discover Us</h1>
+                    </div>
+                    <div>
+                        <p className='xx:text-xs text-justify'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos ducimus modi quaerat quas veritatis perspiciatis sapiente qui tempore</p>
+                    </div>
+                </div>
+                <div className='
+                    xx:flex xx:flex-col xx:justify-center xx: xx: 
+                    xs:
+                    sm:
+                    md:
+                    lg:
+                    xl:
+                    2xl:
+                '>
+                    <img src="https://www.powerfulpanels.com/wp-content/uploads/2023/06/create-an-inclusive-environment-1--1200x675.jpg" alt="" className='rounded-md'/>
+                    <span className='
+                        xx:text-center xx:text-xs xx:mb-5 xx: 
+                        xs:
+                        sm:
+                        md:
+                        lg:
+                        xl:
+                        2xl:
+                    '>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum explicabo vel fugiat a quia neque dolorum placeat aspernatur id illo.</span>
+                    <div className='flex justify-center xx:pb-5'>
+                        <button className='text-white rounded-sm
+                            xx:font-thin xx:text-xs xx:flex xx:justify-center xx:bg-black xx:px-2 xx:py-1.5 xx:w-32
+                            xs:
+                            sm:
+                            md:
+                            lg:
+                            xl:
+                            2xl:'
+                        >
+                            Explore Services
+                        </button>
+                    </div>
+                    <div className='
+                        xx:flex flex-row-reverse xx: xx: xx: 
+                        xs:
+                        sm:
+                        md:
+                        lg:
+                        xl:
+                        2xl:
+                    '>
+                        <div className='
+                                xx: xx: xx: xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '>
+                            <div>
+                                <img src="https://st2.depositphotos.com/1037987/42002/i/450/depositphotos_420021494-stock-photo-portrait-female-owner-gift-store.jpg" alt="" />
+                            </div>
+                            <div className='flex items-center text-gray-400 space-x-1
+                                    xx:text-xs xx:pt-3 xx: xx: 
+                                    xs:
+                                    sm:
+                                    md:
+                                    lg:
+                                    xl:
+                                    2xl:
+                                '>
+                                <hr className='bg-black text-black
+                                    xx:w-16 xx: xx: xx: 
+                                    xs:
+                                    sm:
+                                    md:
+                                    lg:
+                                    xl:
+                                    2xl:
+                                '/>
+                                <p className='text-black font-semibold'>Testimonials</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
