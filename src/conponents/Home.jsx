@@ -217,7 +217,7 @@ function Home() {
                 </div>
             </div>
 
-            <div  className='flex flex-col border border-black space-y-3
+            <div  className='flex flex-col space-y-3
                 xx: xx: xx: xx: 
                 xs:
                 sm:
@@ -257,7 +257,7 @@ function Home() {
                 2xl:'
                 >
                     <div>
-                        <h1 className='border border-black
+                        <h1 className='
                         xx: xx:w-80 xx:text-3xl xx:font-bold
                         xs:
                         sm:
@@ -297,7 +297,226 @@ function Home() {
                         </button>
                     </div>
                     <div>
-                        <img src="https://wpfrank.com/wp-content/uploads/2024/09/Monthly-Retainer-for-Your-Marketing-Needs.jpg" alt="aboutCompany" />
+                        <img src="https://wpfrank.com/wp-content/uploads/2024/09/Monthly-Retainer-for-Your-Marketing-Needs.jpg" alt="aboutCompany"  className='rounded-md'/>
+                    </div>
+                </div>
+            </div>
+
+            {/* service */}
+            <div className='
+                xx:px-6 xx:pt-6 xx: xx: 
+                xs:
+                sm:
+                md:
+                lg:
+                xl:
+                2xl:
+            '>
+                <div className='grid
+                    xx:grid-cols-1 xx: xx: xx: 
+                    xs:
+                    sm:
+                    md:
+                    lg:
+                    xl:
+                    2xl:
+                '>
+                    <div className='grid grid-cols-2 gap-2'>
+                        <div className='rounded-sm bg-yellow-400
+                            xx:px-3 xx: xx: xx: 
+                            xs:
+                            sm:
+                            md:
+                            lg:
+                            xl:
+                            2xl:
+                        '>
+                            <h1 className='
+                                xx:pt-10 xx: xx: xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '>Production Design</h1>
+                            <span className='
+                                xx:text-xs xx:text-center xx: xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, similique accusamus.</span>
+                        </div>
+                        <div className='rounded-sm bg-[#FCBF90]
+                            xx:px-3 xx: xx: xx: 
+                            xs:
+                            sm:
+                            md:
+                            lg:
+                            xl:
+                            2xl:
+                        '>
+                            <h1 className='
+                                xx:pt-10 xx: xx: xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '>Production Design</h1>
+                            <span className='
+                                xx:text-xs xx:text-center xx: xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, similique accusamus.</span>
+                        </div>
+                        <div className='rounded-sm bg-green-400
+                            xx:px-3 xx: xx: xx: 
+                            xs:
+                            sm:
+                            md:
+                            lg:
+                            xl:
+                            2xl:
+                        '>
+                            <h1 className='
+                                xx:pt-10 xx: xx: xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '>Production Design</h1>
+                            <span className='
+                                xx:text-xs xx:text-center xx: xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, similique accusamus.</span>
+                        </div>
+                        <div className='rounded-sm bg-sky-300
+                            xx:px-3 xx: xx: xx: 
+                            xs:
+                            sm:
+                            md:
+                            lg:
+                            xl:
+                            2xl:
+                        '>
+                            <h1 className='
+                                xx:pt-10 xx: xx: xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '>Production Design</h1>
+                            <span className='
+                                xx:text-xs xx:text-center xx: xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, similique accusamus.</span>
+                        </div>
+                        
+                    </div>
+
+                    <div  className='flex flex-col space-y-3
+                        xx: xx: xx: xx: 
+                        xs:
+                        sm:
+                        md:
+                        lg:
+                        xl:
+                        2xl:
+                    '>
+                        <div className='flex items-center text-gray-400 space-x-1
+                                xx:text-xs xx:pt-3 xx: xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '>
+                            <hr className='bg-black text-black
+                                xx:w-16 xx: xx: xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '/>
+                            <p className='text-black font-semibold'>Services</p>
+                        </div>
+
+                        <div className='
+                        xx:px-6 xx: xx: xx:
+                        xs:
+                        sm:
+                        md:
+                        lg:
+                        xl:
+                        2xl:'
+                        >
+                            <div>
+                                <h1 className='
+                                xx: xx:w-80 xx:text-2xl xx:font-bold
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:'>
+                                    We Can Help You Solve Your Problem Through Our Service
+                                </h1>
+                                <span className='
+                                xx:font-thin xx:text-xs xx:text-justify xx:
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:'
+                                >
+                                    Some studies indicate that consumer responses to marketing approaches are becoming loss predictable
+                                    for business. According to a 2023 study. nearly 90% of online consumers in the United States researched 
+                                    products and brands online before visiting the store or making purchase. <br/><br/>
+                                    Some studies indicate that consumer responses to marketing approaches are become  loss for buinesses.
+                                </span>
+                            </div>
+
+                            <div className='mb-5'>
+                                <button className='text-white rounded-sm
+                                    xx:font-thin xx:text-xs xx:text-justify xx:bg-black xx:px-2 xx:py-0.5
+                                    xs:
+                                    sm:
+                                    md:
+                                    lg:
+                                    xl:
+                                    2xl:'
+                                >
+                                    Explore Services
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
