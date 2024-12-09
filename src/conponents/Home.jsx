@@ -6,6 +6,8 @@ import amazon from '../assets/amazon.png';
 import merck from '../assets/merck.png';
 import evaly from '../assets/evaly.png';
 import kanbanize from '../assets/kanbanize.png';
+import 'swiper/swiper-bundle.css' // import swiper style
+
 function Home() {
     return (
         <div className='h-screen'>
@@ -592,14 +594,14 @@ function Home() {
                                 <img src="https://st2.depositphotos.com/1037987/42002/i/450/depositphotos_420021494-stock-photo-portrait-female-owner-gift-store.jpg" alt="" />
                             </div>
                             <div className='flex items-center text-gray-400 space-x-1
-                                    xx:text-xs xx:pt-3 xx:mt-5 xx: 
-                                    xs:
-                                    sm:
-                                    md:
-                                    lg:
-                                    xl:
-                                    2xl:
-                                '>
+                                xx:text-xs xx:pt-3 xx:mt-5 xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '>
                                 <hr className='bg-black text-black
                                     xx:w-16 xx: xx: xx: 
                                     xs:
@@ -613,14 +615,14 @@ function Home() {
                             </div>
                             {/* carousel this part */}
                             <div className='
-                                    xx:space-y-5 xx: xx: xx: 
-                                    xs:
-                                    sm:
-                                    md:
-                                    lg:
-                                    xl:
-                                    2xl:
-                                '>
+                                xx:space-y-5 xx: xx: xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '>
                                 <h1 className='
                                     xx:text-xl xx:font-bold xx: xx: xx: 
                                     xs:
@@ -672,8 +674,8 @@ function Home() {
                                                 2xl:
                                             '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eum reiciendis maxime, dicta corporis aliquam voluptatem beatae iste sit quaerat!</p>
                                         </div>
-                                        <div className='
-                                            xx: xx: xx: xx: 
+                                        <div className='grid
+                                            xx:grid-rows- xx: xx: xx: 
                                             xs:
                                             sm:
                                             md:
@@ -711,6 +713,109 @@ function Home() {
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            {/* Subscribe Part */}
+                            <div className='bg-[#270B33] rounded-lg text-white
+                                xx:pb-5 xx:px-5 xx:py-3.5 xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '>
+                                <div>
+                                    <div className='
+                                        xx:space-y-3 xx: xx: xx: 
+                                        xs:
+                                        sm:
+                                        md:
+                                        lg:
+                                        xl:
+                                        2xl:
+                                    '>
+                                        <div className='flex items-center text-gray-400 space-x-1
+                                            xx:text-xs xx:pt-3 xx:mt-5 xx: 
+                                            xs:
+                                            sm:
+                                            md:
+                                            lg:
+                                            xl:
+                                            2xl:
+                                        '>
+                                            <hr className='bg-black text-black
+                                                xx:w-16 xx: xx: xx: 
+                                                xs:
+                                                sm:
+                                                md:
+                                                lg:
+                                                xl:
+                                                2xl:
+                                            '/>
+                                            <p className='text-black font-semibold'>Subscribe Now</p>
+                                        </div>
+
+                                        <h1 className='
+                                            xx:text-xl xx:font-bold xx: xx: 
+                                            xs:
+                                            sm:
+                                            md:
+                                            lg:
+                                            xl:
+                                            2xl:
+                                        '>
+                                            Subscribe To Our Newsletter
+                                        </h1>
+
+                                        <div>
+                                            <div className="relative">
+                                                <form action="">
+                                                    <div className="flex items-center">
+                                                        <input 
+                                                            type="text" 
+                                                            placeholder='Test'  
+                                                            className='border border-black rounded-md px-4 py-2 w-full outline-none text-black'
+                                                        />
+                                                        <button 
+                                                            type="#" 
+                                                            className='bg-black text-white text-xs px-4 rounded-r-md absolute right-0 h-full'
+                                                        >
+                                                            Subscribe
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div>
+                                                <span className='
+                                                    xx:text-xs xx: xx: xx: 
+                                                    xs:
+                                                    sm:
+                                                    md:
+                                                    lg:
+                                                    xl:
+                                                    2xl:
+                                                '>
+                                                    Already a member?<span className='text-[#FCBF90]'> Sign in</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* footer */}
+
+                            <div className='bg-[#d5e1fd]
+                                xx: xx: xx: xx: 
+                                xs:
+                                sm:
+                                md:
+                                lg:
+                                xl:
+                                2xl:
+                            '>
+                                sdfsdffds
                             </div>
                         </div>
                     </div>
