@@ -571,7 +571,7 @@ function Home() {
                         </button>
                     </div>
                     <div className='
-                        xx:flex flex-row-reverse xx: xx: xx: 
+                        xx:flex flex-row-reverse xx:mt-5 xx: xx: 
                         xs:
                         sm:
                         md:
@@ -579,20 +579,20 @@ function Home() {
                         xl:
                         2xl:
                     '>
-                        <div className='
-                                xx: xx: xx: xx: 
-                                xs:
-                                sm:
-                                md:
-                                lg:
-                                xl:
-                                2xl:
-                            '>
+                        <div className='space-y-3
+                            xx: xx: xx: xx: 
+                            xs:
+                            sm:
+                            md:
+                            lg:
+                            xl:
+                            2xl:
+                        '>
                             <div>
                                 <img src="https://st2.depositphotos.com/1037987/42002/i/450/depositphotos_420021494-stock-photo-portrait-female-owner-gift-store.jpg" alt="" />
                             </div>
                             <div className='flex items-center text-gray-400 space-x-1
-                                    xx:text-xs xx:pt-3 xx: xx: 
+                                    xx:text-xs xx:pt-3 xx:mt-5 xx: 
                                     xs:
                                     sm:
                                     md:
@@ -610,6 +610,107 @@ function Home() {
                                     2xl:
                                 '/>
                                 <p className='text-black font-semibold'>Testimonials</p>
+                            </div>
+                            {/* carousel this part */}
+                            <div className='
+                                    xx:space-y-5 xx: xx: xx: 
+                                    xs:
+                                    sm:
+                                    md:
+                                    lg:
+                                    xl:
+                                    2xl:
+                                '>
+                                <h1 className='
+                                    xx:text-xl xx:font-bold xx: xx: xx: 
+                                    xs:
+                                    sm:
+                                    md:
+                                    lg:
+                                    xl:
+                                    2xl:
+                                '>2500+ Happy Client Said to Us They Are Stisfied </h1>
+                                <p className='
+                                    xx:text-xs xx:text-justify xx: xx: 
+                                    xs:
+                                    sm:
+                                    md:
+                                    lg:
+                                    xl:
+                                    2xl:
+                                '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, eius quo? 
+                                Corporis, veniam ab? Repellendus sunt beatae ullam. Dolorem, eaque!</p>
+
+
+                                {/* this is the part of the carousel begins */}
+                                <div className='rounded-md bg-sky-300
+                                    xx:p-5 xx: xx: xx: 
+                                    xs:
+                                    sm:
+                                    md:
+                                    lg:
+                                    xl:
+                                    2xl:
+                                '>
+                                    <div className='space-y-3
+                                        xx: xx: xx: xx: 
+                                        xs:
+                                        sm:
+                                        md:
+                                        lg:
+                                        xl:
+                                        2xl:
+                                    '>
+                                        <div>
+                                            <p className='
+                                                xx:text-xs xx:text-justify xx: xx: 
+                                                xs:
+                                                sm:
+                                                md:
+                                                lg:
+                                                xl:
+                                                2xl:
+                                            '>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem eum reiciendis maxime, dicta corporis aliquam voluptatem beatae iste sit quaerat!</p>
+                                        </div>
+                                        <div className='
+                                            xx: xx: xx: xx: 
+                                            xs:
+                                            sm:
+                                            md:
+                                            lg:
+                                            xl:
+                                            2xl:
+                                        '>
+                                            <div>
+                                                <img src="" alt="" />
+                                            </div>
+                                            <div>
+                                                <h1 className='
+                                                    xx:text-xs xx:font-bold xx: xx: 
+                                                    xs:
+                                                    sm:
+                                                    md:
+                                                    lg:
+                                                    xl:
+                                                    2xl:
+                                                '>
+                                                    John Doe
+                                                </h1>
+                                                <p className='
+                                                    xx:text-xs xx:text-justify xx: xx: 
+                                                    xs:
+                                                    sm:
+                                                    md:
+                                                    lg:
+                                                    xl:
+                                                    2xl:
+                                                '>
+                                                    Philippine
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
