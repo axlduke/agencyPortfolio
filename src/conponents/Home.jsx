@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment, useState, useEffect } from "react";
 import Nav from './Navigation/Nav'
 import walmartImage from '../assets/walmart.png';
 import fedex from '../assets/fedex.png';
@@ -7,6 +7,7 @@ import merck from '../assets/merck.png';
 import evaly from '../assets/evaly.png';
 import kanbanize from '../assets/kanbanize.png';
 import 'swiper/swiper-bundle.css' // import swiper style
+
 
 function Home() {
     return (
@@ -803,21 +804,139 @@ function Home() {
                                     </div>
                                 </div>
                             </div>
-
-                            {/* footer */}
-
-                            <div className='bg-[#d5e1fd]
-                                xx: xx: xx: xx: 
-                                xs:
-                                sm:
-                                md:
-                                lg:
-                                xl:
-                                2xl:
-                            '>
-                                sdfsdffds
-                            </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* footer */}
+
+            <div className='bg-[#d5e1fd]
+                xx:mt-10 xx:px-10 xx: xx: 
+                xs:
+                sm:
+                md:
+                lg:
+                xl:
+                2xl:
+            '>
+                <div className='grid
+                    xx:grid-rows-4 xx: xx: xx: 
+                    xs:
+                    sm:
+                    md:
+                    lg:
+                    xl:
+                    2xl:
+                '>
+                    <div className='
+                        xx:space-y-5 xx:mt-5 xx: xx: 
+                        xs:
+                        sm:
+                        md:
+                        lg:
+                        xl:
+                        2xl:
+                    '>
+                        <div>
+                            <h1 className='font-bold xx:text-2xl'>CROCO</h1>
+                        </div>
+                        <div>
+                            <span className='xx:text-sm xx:text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi odit similique sunt impedit voluptatum eius?</span>
+                        </div>
+                        <div>
+                            <ul className='flex xx:space-x-3'>
+                                <li className='flex justify-center items-center rounded-full border border-black
+                                    xx:w-10 xx:aspect-square xx:text-xl xx: 
+                                    xs:
+                                    sm:
+                                    md:
+                                    lg:
+                                    xl:
+                                    2xl:
+                                '>f</li>
+                                <li className='flex justify-center items-center rounded-full border border-black
+                                    xx:w-10 xx:aspect-square xx:text-xl xx: 
+                                    xs:
+                                    sm:
+                                    md:
+                                    lg:
+                                    xl:
+                                    2xl:
+                                '>I</li>
+                                <li className='flex justify-center items-center rounded-full border border-black
+                                    xx:w-10 xx:aspect-square xx:text-xl xx: 
+                                    xs:
+                                    sm:
+                                    md:
+                                    lg:
+                                    xl:
+                                    2xl:
+                                '>in</li>
+                                <li className='flex justify-center items-center rounded-full border border-black
+                                    xx:w-10 xx:aspect-square xx:text-xl xx: 
+                                    xs:
+                                    sm:
+                                    md:
+                                    lg:
+                                    xl:
+                                    2xl:
+                                '>t</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <h1>Products</h1>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>Features</li>
+                                <li>Integrations</li>
+                                <li>Pricing</li>
+                                <li>Changelog</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <h1>Company</h1>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>About Us</li>
+                                <li>Blog</li>
+                                <li>Careers</li>
+                                <li>Costumers</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <h1>Quick Contact</h1>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>+63 920 692 8571</li>
+                                <li>maltoace9@gmail.com</li>
+                                <li>Contact Us</li>
+                                <li>Term of Service</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="flex justify-center">
+                    <div>
+                        <hr />
+                    </div>
+                    <div>
+                        <span>
+                            © 2024 <strong>aceKun</strong> All right reserved
+                        </span>
                     </div>
                 </div>
             </div>
