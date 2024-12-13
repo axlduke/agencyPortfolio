@@ -754,7 +754,7 @@ function Home() {
                                                 xl:
                                                 2xl:
                                             '/>
-                                            <p className='text-black font-semibold'>Subscribe Now</p>
+                                            <p className='text-white font-semibold'>Subscribe Now</p>
                                         </div>
 
                                         <h1 className='
